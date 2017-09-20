@@ -9,19 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var countLabel: UILabel!
     var counter = Counter()
+    
+    @IBAction func increaseButtonTapped(_ sender: Any) {
+        self.counter.countUp()
+        self.countLabel.text = String(self.counter.current())
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let count = self.counter.current()
-        print(count)
+        self.countLabel.text = String(self.counter.current())
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
-
+    
+    
 }
 
