@@ -27,5 +27,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    @IBAction func unwindToMainScr(sender: UIStoryboardSegue) {
+        print("Mainにもどります")
+    }
+    
 }
 

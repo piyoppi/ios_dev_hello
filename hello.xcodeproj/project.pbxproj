@@ -15,6 +15,7 @@
 		E45A0ACD1F72454F0037875B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43641071F72421600461DA1 /* Main.storyboard */; };
 		E45A0ACE1F7245520037875B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43641081F72423300461DA1 /* LaunchScreen.storyboard */; };
 		E45A0AD01F7247130037875B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A0ACF1F7247130037875B /* ViewController.swift */; };
+		E45A0AD21F7255140037875B /* Next.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45A0AD11F7255140037875B /* Next.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E43641071F72421600461DA1 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = /Users/shohei.ogata/prog/hello/hello/Storyboards/Main.storyboard; sourceTree = "<absolute>"; };
 		E43641081F72423300461DA1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = /Users/shohei.ogata/prog/hello/hello/Storyboards/LaunchScreen.storyboard; sourceTree = "<absolute>"; };
 		E45A0ACF1F7247130037875B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E45A0AD11F7255140037875B /* Next.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Next.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			children = (
 				E43641071F72421600461DA1 /* Main.storyboard */,
 				E43641081F72423300461DA1 /* LaunchScreen.storyboard */,
+				E45A0AD11F7255140037875B /* Next.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E45A0ACE1F7245520037875B /* LaunchScreen.storyboard in Resources */,
+				E45A0AD21F7255140037875B /* Next.storyboard in Resources */,
 				E45A0ACD1F72454F0037875B /* Main.storyboard in Resources */,
 				E43640D61F72314B00461DA1 /* Assets.xcassets in Resources */,
 			);
