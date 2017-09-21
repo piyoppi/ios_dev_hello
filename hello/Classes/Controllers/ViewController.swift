@@ -21,7 +21,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.countLabel.text = String(self.counter.current())
-        self.performSegue(withIdentifier: "goNext", sender: nil)
+        // self.performSegue(withIdentifier: "goNext", sender: nil)
+        Hoge.fetchHoges() { hoges in
+            dump(hoges)
+        }
     }
     
     override func didReceiveMemoryWarning() {
