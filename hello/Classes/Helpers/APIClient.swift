@@ -34,16 +34,21 @@ class APIClient {
 
 enum Endpoint {
     case HogeIndex
+    case Characters
     
     func method() -> HTTPMethod {
         switch self {
         case .HogeIndex: return .get
+        case .Characters: return .get
         }
     }
     
     func path() -> String {
         switch self {
-        case .HogeIndex: return "/api/microposts"
+        case .HogeIndex:
+            return "/api/microposts"
+        case .Characters:
+            return "/api/characters"
         }
     }
 }

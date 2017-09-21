@@ -23,6 +23,8 @@
 		E4F700541F7390AB00869BD5 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700531F7390AB00869BD5 /* MyTableViewController.swift */; };
 		E4F700591F73920F00869BD5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700571F73920F00869BD5 /* TableViewCell.swift */; };
 		E4F7005A1F73920F00869BD5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F700581F73920F00869BD5 /* TableViewCell.xib */; };
+		E4F7005D1F739B7500869BD5 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F7005C1F739B7500869BD5 /* Character.swift */; };
+		E4F700601F73BFC900869BD5 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F7005E1F73BF1D00869BD5 /* SDWebImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		E4F700531F7390AB00869BD5 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		E4F700571F73920F00869BD5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E4F700581F73920F00869BD5 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		E4F7005C1F739B7500869BD5 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		E4F7005E1F73BF1D00869BD5 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F700601F73BFC900869BD5 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			children = (
 				E43641041F72328400461DA1 /* Counter.swift */,
 				E45A0AD51F736A600037875B /* Hoge.swift */,
+				E4F7005C1F739B7500869BD5 /* Character.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 		E45A0AD81F737F370037875B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E4F7005E1F73BF1D00869BD5 /* SDWebImage.framework */,
 				E45A0AE51F737F3C0037875B /* Build */,
 				E45A0AD91F737F370037875B /* Build */,
 			);
@@ -300,7 +307,7 @@
 				E43640C71F72314B00461DA1 /* Sources */,
 				E43640C81F72314B00461DA1 /* Frameworks */,
 				E43640C91F72314B00461DA1 /* Resources */,
-				E45A0AF31F7382230037875B /* ShellScript */,
+				E45A0AF31F7382230037875B /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -423,7 +430,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E45A0AF31F7382230037875B /* ShellScript */ = {
+		E45A0AF31F7382230037875B /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,10 +438,13 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
 			);
+			name = "Run Script";
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)//SwiftyJSON.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,6 +466,7 @@
 				E45A0AD61F736A600037875B /* Hoge.swift in Sources */,
 				E43640CF1F72314B00461DA1 /* AppDelegate.swift in Sources */,
 				E45A0AD41F7366200037875B /* APIClient.swift in Sources */,
+				E4F7005D1F739B7500869BD5 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

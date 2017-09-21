@@ -22,9 +22,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.countLabel.text = String(self.counter.current())
         // self.performSegue(withIdentifier: "goNext", sender: nil)
+        
         Hoge.fetchHoges() { hoges in
             dump(hoges)
         }
+        
+        Character.fetchCharacters() { characters in
+            dump(characters)
+        }
+//      ↓こいつの省略形がこれ↑
+//      Hoge.fetchHoges( handler: {(hoges: Array<Hoge>) -> Void in
+//          dump(hoges)
+//      })
     }
     
     override func didReceiveMemoryWarning() {
