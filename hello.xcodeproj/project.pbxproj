@@ -20,6 +20,7 @@
 		E45A0AD61F736A600037875B /* Hoge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A0AD51F736A600037875B /* Hoge.swift */; };
 		E45A0AF51F7387F30037875B /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A0AF41F7387F30037875B /* TableController.swift */; };
 		E4F700521F738D2900869BD5 /* RoundRectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700511F738D2900869BD5 /* RoundRectButton.swift */; };
+		E4F700541F7390AB00869BD5 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700531F7390AB00869BD5 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		E45A0AF01F737F3C0037875B /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
 		E45A0AF41F7387F30037875B /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		E4F700511F738D2900869BD5 /* RoundRectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectButton.swift; sourceTree = "<group>"; };
+		E4F700531F7390AB00869BD5 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			children = (
 				E45A0ACF1F7247130037875B /* ViewController.swift */,
 				E45A0AF41F7387F30037875B /* TableController.swift */,
+				E4F700531F7390AB00869BD5 /* MyTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				E4F700521F738D2900869BD5 /* RoundRectButton.swift in Sources */,
 				E43641051F72328400461DA1 /* Counter.swift in Sources */,
 				E45A0AD01F7247130037875B /* ViewController.swift in Sources */,
+				E4F700541F7390AB00869BD5 /* MyTableViewController.swift in Sources */,
 				E45A0AF51F7387F30037875B /* TableController.swift in Sources */,
 				E45A0AD61F736A600037875B /* Hoge.swift in Sources */,
 				E43640CF1F72314B00461DA1 /* AppDelegate.swift in Sources */,
