@@ -35,7 +35,14 @@
                                 <rect key="frame" x="171.5" y="537" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="yPg-ac-2vk" kind="show" id="m5n-Lt-KMp"/>
+                                    <segue destination="yPg-ac-2vk" kind="show" identifier="goNext" id="m5n-Lt-KMp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1F-Cl-Tdk">
+                                <rect key="frame" x="167" y="597" width="41" height="30"/>
+                                <state key="normal" title="Next2"/>
+                                <connections>
+                                    <action selector="ButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BMk-v5-fV2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,8 +50,10 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OcO-oQ-CqU" secondAttribute="bottom" constant="100" id="1Yi-ok-vjh"/>
                             <constraint firstItem="a99-nm-Tgd" firstAttribute="top" secondItem="R9H-GT-pzs" secondAttribute="bottom" constant="100" id="3ce-ef-u3N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="W1F-Cl-Tdk" secondAttribute="bottom" constant="40" id="7oy-Hg-aRK"/>
                             <constraint firstItem="OcO-oQ-CqU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dlh-UU-fF2"/>
                             <constraint firstItem="a99-nm-Tgd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="H3e-ly-aYy"/>
+                            <constraint firstItem="W1F-Cl-Tdk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bYu-fb-QgU"/>
                             <constraint firstItem="a99-nm-Tgd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="caD-Fy-o3W"/>
                             <constraint firstItem="R9H-GT-pzs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ovi-yC-rp2"/>
                         </constraints>
@@ -62,15 +71,14 @@
         <!--Next-->
         <scene sceneID="Uk0-iJ-J4H">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S9x-4V-LVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="Next" id="yPg-ac-2vk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9x-4V-LVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="964" y="34"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="KbV-Rr-taX">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LPq-dB-iSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XPZ-UR-Vg7" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VPC-ou-MiM">
@@ -82,6 +90,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Sk6-O2-k8a"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LPq-dB-iSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-588" y="34"/>
         </scene>

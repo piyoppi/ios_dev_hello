@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.countLabel.text = String(self.counter.current())
+        self.performSegue(withIdentifier: "goNext", sender: nil)
     }
     
     override func didReceiveMemoryWarning() {
@@ -31,5 +32,10 @@ class ViewController: UIViewController {
         print("Mainにもどります")
     }
     
+    @IBAction func ButtonTapped(_ sender: UIButton) {
+        let nextStoryboard = UIStoryboard(name: "Next", bundle: nil)
+        let nextViewController = nextStoryboard.instantiateViewController(withIdentifier: "nextScene")
+        self.present(nextViewController, animated: true, completion: nil)
+    }
 }
 

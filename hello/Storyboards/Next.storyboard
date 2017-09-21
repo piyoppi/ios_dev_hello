@@ -12,7 +12,7 @@
         <!--Next-->
         <scene sceneID="cUt-8p-zIU">
             <objects>
-                <viewController title="Next" id="GdM-eV-3ud" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="nextScene" title="Next" id="GdM-eV-3ud" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WgH-yd-ANx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
