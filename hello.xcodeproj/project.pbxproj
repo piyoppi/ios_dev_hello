@@ -21,6 +21,8 @@
 		E45A0AF51F7387F30037875B /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A0AF41F7387F30037875B /* TableController.swift */; };
 		E4F700521F738D2900869BD5 /* RoundRectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700511F738D2900869BD5 /* RoundRectButton.swift */; };
 		E4F700541F7390AB00869BD5 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700531F7390AB00869BD5 /* MyTableViewController.swift */; };
+		E4F700591F73920F00869BD5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700571F73920F00869BD5 /* TableViewCell.swift */; };
+		E4F7005A1F73920F00869BD5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4F700581F73920F00869BD5 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		E45A0AF41F7387F30037875B /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		E4F700511F738D2900869BD5 /* RoundRectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectButton.swift; sourceTree = "<group>"; };
 		E4F700531F7390AB00869BD5 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		E4F700571F73920F00869BD5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E4F700581F73920F00869BD5 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				E4F700511F738D2900869BD5 /* RoundRectButton.swift */,
+				E4F700571F73920F00869BD5 /* TableViewCell.swift */,
+				E4F700581F73920F00869BD5 /* TableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -393,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E45A0ACE1F7245520037875B /* LaunchScreen.storyboard in Resources */,
+				E4F7005A1F73920F00869BD5 /* TableViewCell.xib in Resources */,
 				E45A0AD21F7255140037875B /* Next.storyboard in Resources */,
 				E45A0ACD1F72454F0037875B /* Main.storyboard in Resources */,
 				E43640D61F72314B00461DA1 /* Assets.xcassets in Resources */,
@@ -443,6 +450,7 @@
 				E4F700521F738D2900869BD5 /* RoundRectButton.swift in Sources */,
 				E43641051F72328400461DA1 /* Counter.swift in Sources */,
 				E45A0AD01F7247130037875B /* ViewController.swift in Sources */,
+				E4F700591F73920F00869BD5 /* TableViewCell.swift in Sources */,
 				E4F700541F7390AB00869BD5 /* MyTableViewController.swift in Sources */,
 				E45A0AF51F7387F30037875B /* TableController.swift in Sources */,
 				E45A0AD61F736A600037875B /* Hoge.swift in Sources */,
