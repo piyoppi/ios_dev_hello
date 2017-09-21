@@ -18,6 +18,8 @@
 		E45A0AD21F7255140037875B /* Next.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E45A0AD11F7255140037875B /* Next.storyboard */; };
 		E45A0AD41F7366200037875B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A0AD31F7366200037875B /* APIClient.swift */; };
 		E45A0AD61F736A600037875B /* Hoge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A0AD51F736A600037875B /* Hoge.swift */; };
+		E45A0AF51F7387F30037875B /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A0AF41F7387F30037875B /* TableController.swift */; };
+		E4F700521F738D2900869BD5 /* RoundRectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F700511F738D2900869BD5 /* RoundRectButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		E45A0AEE1F737F3C0037875B /* E2149458-E7C1-3C42-B6BA-2ECBE5C07D8E.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "E2149458-E7C1-3C42-B6BA-2ECBE5C07D8E.bcsymbolmap"; sourceTree = "<group>"; };
 		E45A0AEF1F737F3C0037875B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
 		E45A0AF01F737F3C0037875B /* SwiftyJSON.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = SwiftyJSON.framework.dSYM; sourceTree = "<group>"; };
+		E45A0AF41F7387F30037875B /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		E4F700511F738D2900869BD5 /* RoundRectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundRectButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				E45A0ACF1F7247130037875B /* ViewController.swift */,
+				E45A0AF41F7387F30037875B /* TableController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 		E43641011F72319D00461DA1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E4F700511F738D2900869BD5 /* RoundRectButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -431,8 +437,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F700521F738D2900869BD5 /* RoundRectButton.swift in Sources */,
 				E43641051F72328400461DA1 /* Counter.swift in Sources */,
 				E45A0AD01F7247130037875B /* ViewController.swift in Sources */,
+				E45A0AF51F7387F30037875B /* TableController.swift in Sources */,
 				E45A0AD61F736A600037875B /* Hoge.swift in Sources */,
 				E43640CF1F72314B00461DA1 /* AppDelegate.swift in Sources */,
 				E45A0AD41F7366200037875B /* APIClient.swift in Sources */,
