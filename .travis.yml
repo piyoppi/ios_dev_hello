@@ -1,5 +1,10 @@
+before_install:
+    - carthage update --platform ios
+osx_image: xcode9
 language: objective-c
-before_script:
-    - brew update && brew upgrade xctool
 xcode_project: hello.xcodeproj
-xcode_scheme: helloTests
+xcode_scheme: hello
+#xcode_scheme: helloTests
+#script: xcodebuild clean && xcodebuild build -project hello.xcodeproj -scheme hello CODE_SIGNING_REQUIRED=NO
+#script: xcodebuild clean && xcodebuild build -project hello.xcodeproj -scheme hello
+
