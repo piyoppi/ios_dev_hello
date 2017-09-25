@@ -1,6 +1,5 @@
 language: objective-c
 before_script:
     - brew update && brew upgrade xctool
-xcode_project: JsonSerializer.xcodeproj
-xcode_scheme: JsonSerializerTests
-xcode_sdk: iphonesimulator
+xcode_project: hello.xcodeproj
+xcode_scheme: helloTests
